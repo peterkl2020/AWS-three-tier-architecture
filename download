@@ -1,0 +1,13 @@
+# Dependencies and build output
+node_modules/
+build/
+
+# Secrets: never commit real database credentials
+.env
+*.pem
+*.key
+
+# OS / editor files
+.DS_Store
+.vscode/
+.idea/
