@@ -68,7 +68,8 @@ Company X is preparing for its annual event and needs a website that can handle 
    Private   [Aurora MySQL writer]  <---->  [Aurora reader]       <- Data Tier
    DB subnets
 ```
-          <img width="398" height="179" alt="image" src="https://github.com/user-attachments/assets/4c875d17-c7f2-45e5-9e97-ba6f3d9c8d8c" />
+<img width="398" height="179" alt="image" src="https://github.com/user-attachments/assets/b5745c0f-ffdc-40e3-85bb-d2a3e548c2b0" />
+
 
 **Request path:** Browser → External ALB → NGINX (web tier) → Internal ALB → Node.js (app tier, port 4000) → Aurora MySQL (port 3306) → back.
 
